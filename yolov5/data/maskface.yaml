@@ -1,0 +1,5 @@
+train: FaceRecognitionWithMask/train/images
+val: FaceRecognitionWithMask/valid/images
+
+nc: 2
+names: ['mask', 'nomask']
