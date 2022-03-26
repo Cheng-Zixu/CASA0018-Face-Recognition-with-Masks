@@ -25,9 +25,13 @@ http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat
 http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 ```
 
-2. Inference:
+3. Inference:
 
 ```
 python yolov5/detect.py --source 0 --nosave
 ```
 
+## Train your own model
+
+1. Download Dataset https://app.roboflow.com/zixu-cheng/face-recognition-with-mask/
+2. 
