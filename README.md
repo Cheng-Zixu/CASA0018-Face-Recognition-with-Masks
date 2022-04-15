@@ -33,5 +33,5 @@ python yolov5/detect.py --source 0 --nosave
 
 ## Train your own model
 
-1. Download Dataset https://app.roboflow.com/zixu-cheng/face-recognition-with-mask/
+1. Download Dataset https://universe.roboflow.com/zixu-cheng/face-recognition-with-mask/
 2. 
