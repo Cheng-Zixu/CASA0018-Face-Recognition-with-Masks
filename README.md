@@ -90,6 +90,7 @@ The recognition result would be shown like:
 
 ## Train your own model
 
+<<<<<<< HEAD
 We only train the yolov5 detection model here, since the recognition model is well-trained by Dlib.
 
 1. Download Dataset from https://app.roboflow.com/zixu-cheng/face-recognition-with-mask/  and unzip the file in the project. Find more information in [YOLOv5 train tutorial](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) or [YOLOv5 Githhub repository](https://github.com/ultralytics/yolov5).
@@ -134,4 +135,3 @@ For the YOLOv5n I trained for Raspberry, multi-scale training gets the best resu
 |  6   | YOLOv5-n | 320x320~     960x960 |   1.8M    |  4.2   |     0.952/0.880      |     0.94/0.811      |   0.485/0.383    |   3.9MB    |   ✔    |                 |      ✔      |     2.942     |
 |  7   | YOLOv5-n | 320x320~     960x960 |   1.8M    |  4.2   |     0.948/0.851      |     0.933/0.814     |   0.504/0.386    |   3.9MB    |        |        ✔        |      ✔      |     3.542     |
 |  8   | YOLOv5-n | 320x320~     960x960 |   1.8M    |  4.2   |     0.954/0.875      |     0.922/0.808     |   0.507/0.392    |   3.9MB    |   ✔    |        ✔        |      ✔      |     3.317     |
-
