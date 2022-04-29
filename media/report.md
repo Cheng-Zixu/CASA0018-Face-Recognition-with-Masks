@@ -32,7 +32,7 @@ In this project, my face recognition with masks system consists of 3 steps(Masi 
 
 3. Deep Face Recognition: face recognition module consists of face processing, deep feature extraction and face matching.
 
-![](./imgs/Face Recognition with masks.png)
+![](./imgs/FaceRecognitionwithmasks.png)
 
 <center>Fig 2. Workflow of my Face Recognition with mask system</center>
 

@@ -14,9 +14,7 @@ In this project, my face recognition with masks system consists of 3 steps:
 
 3. Deep Face Recognition: face recognition module consists of face processing, deep feature extraction and face matching.
 
-![](./media/imgs/Face Recognition with masks.png)
-
-<center>Fig 2. Workflow of my Face Recognition with mask system</center>
+![](./media/imgs/FaceRecognitionwithmasks.png)
 
 I used **YOLOv5** to train an object detection model to detect faces with masks or without masks. Then, the face landmarks predictor in the **Dlib** package was adopted to get 68 key points on faces and get the faces after alignment. Consequently, the face recognition model in Dlib would generate **Face ID vectors (or Face Embeddings)** for the faces. Finally, the face vectors would be compared to the Face IDs in different databases (mask/nomask) to recognise your identity according to the detection result. I applied **L2 Distance (or Euclidean Distance)** to calculate the distance between two face IDs. In addition, you need to upload your face with a mask and without a mask to generate Face IDs first in the Face database for recognition.
 
@@ -90,7 +88,6 @@ The recognition result would be shown like:
 
 ## Train your own model
 
-<<<<<<< HEAD
 We only train the yolov5 detection model here, since the recognition model is well-trained by Dlib.
 
 1. Download Dataset from https://app.roboflow.com/zixu-cheng/face-recognition-with-mask/  and unzip the file in the project. Find more information in [YOLOv5 train tutorial](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) or [YOLOv5 Githhub repository](https://github.com/ultralytics/yolov5).
