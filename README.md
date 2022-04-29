@@ -2,7 +2,7 @@
 
 CASA0018 Project - Real-time Face Recognition with masks on Raspberry Pi
 
-Find more details on [my report](./media/Face Recognition with masks report.md).
+Find more details on [my report](./media/report.md).
 
 ## Application Overview
 
