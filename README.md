@@ -99,7 +99,7 @@ python train.py --data /dir/to/dataset/data.yaml --weights yolov5n/s/m/l/x.pt
 
 ## Download my pretrained model
 
-You can download my pretrained model [here](). (To be updated later...)
+You can download my pretrained model [here](https://drive.google.com/drive/folders/1Yx02zamgWRP8yXrIhqmNW5-x_lUuF0vg). [Google Drive] 
 
 ### My Detection training Results
 
